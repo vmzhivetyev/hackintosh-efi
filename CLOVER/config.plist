@@ -183,7 +183,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>5</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -230,9 +230,6 @@
 		<array>
 			<string>Windows</string>
 			<string>BOOTX64.EFI</string>
-			<string>Preboot</string>
-			<string>VM</string>
-			<string>Recovery</string>
 		</array>
 		<key>Language</key>
 		<string>en:0</string>
@@ -324,6 +321,8 @@
 				<true/>
 				<key>Find</key>
 				<data>AEFQUExFIFNTRAA=</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>

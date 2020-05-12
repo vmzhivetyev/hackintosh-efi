@@ -6752,3 +6752,1119 @@
 6:862  0:004  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.15.4_normal
 6:867  0:005  Custom boot screen not used because entry has unset use graphics
 6:873  0:005  Closing log
+0:100  0:100  MemLog inited, TSC freq: 3600484340
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 12.05.2020,  17:29:53 (GMT)
+0:100  0:000  Starting Clover revision: 5107 (HEAD, commit a3f3053c3) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/macman/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 17 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000) @38A39F98
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  Clover : Image base = 0x31EF9000
+0:582  0:482  SimpleTextEx Status=Success
+0:582  0:000  === [ Get Smbios ] ==============================
+0:582  0:000  Type 16 Index = 0
+0:582  0:000  Total Memory Slots Count = 4
+0:582  0:000  Type 17 Index = 0
+0:582  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:582  0:000  SmbiosTable.Type17->Size = 16384MB
+0:582  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:582  0:000  SmbiosTable.Type17->Vendor = 029E
+0:582  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:582  0:000  SmbiosTable.Type17->PartNumber = CMW64GX4M4C3200C16  
+0:582  0:000  Type 17 Index = 1
+0:582  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:582  0:000  SmbiosTable.Type17->Size = 16384MB
+0:582  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:582  0:000  SmbiosTable.Type17->Vendor = 029E
+0:582  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:582  0:000  SmbiosTable.Type17->PartNumber = CMW64GX4M4C3200C16  
+0:582  0:000  Type 17 Index = 2
+0:582  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:582  0:000  SmbiosTable.Type17->Size = 16384MB
+0:582  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:582  0:000  SmbiosTable.Type17->Vendor = 029E
+0:582  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:582  0:000  SmbiosTable.Type17->PartNumber = CMW64GX4M4C3200C16  
+0:582  0:000  Type 17 Index = 3
+0:582  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:582  0:000  SmbiosTable.Type17->Size = 16384MB
+0:582  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:582  0:000  SmbiosTable.Type17->Vendor = 029E
+0:582  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:582  0:000  SmbiosTable.Type17->PartNumber = CMW64GX4M4C3200C16  
+0:582  0:000  Boot status=0
+0:582  0:000  Running on: 'Z390 AORUS MASTER' with board 'Z390 AORUS MASTER-CF'
+0:582  0:000  === [ GetCPUProperties ] ========================
+0:582  0:000  CPU Vendor = 756E6547 Model=906ED
+0:582  0:000   The CPU supported SSE4.1
+0:582  0:000  BrandString = Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+0:582  0:000   The CPU supported turbo
+0:582  0:000  MSR 0x35               80010
+0:582  0:000   TSC/CCC Information Leaf:
+0:582  0:000    numerator     : 300
+0:582  0:000    denominator   : 2
+0:582  0:000   Calibrated ARTFrequency: 24003228
+0:582  0:000   Rounded ARTFrequency: 24000000
+0:582  0:000  MSR 0xE2 before patch 1E008000
+0:582  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:582  0:000  MSR 0xCE              08080838_F1012400
+0:582  0:000  corrected FLEX_RATIO = E0000
+0:582  0:000  FSBFrequency = 132 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:583  0:000  MaxDiv/MinDiv: 36.0/8
+0:583  0:000  Turbo: 48/48/48/48
+0:583  0:000  Features: 0xBFEBFBFF
+0:583  0:000  Threads: 16
+0:583  0:000  Cores: 8
+0:583  0:000  FSB: 100 MHz
+0:583  0:000  CPU: 4752 MHz
+0:583  0:000  TSC: 4752 MHz
+0:583  0:000  PIS: 100 MHz
+0:583  0:000  ExternalClock: 25 MHz
+0:583  0:000  === [ GetDevices ] ==============================
+0:583  0:000  GOP found at: PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+0:583  0:000  PCI (00|00:00.00) : 8086 3E30 class=060000
+0:583  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:583  0:000  PCI (00|01:00.00) : 10DE 1E81 class=030000
+0:583  0:000   - GOP: Provided by device
+0:583  0:000   - GFX: Model=Unknown family 164 (Turing)
+0:583  0:000  PCI (00|01:00.01) : 10DE 10F8 class=040300
+0:583  0:000   - HDMI Audio: 
+0:583  0:000  PCI (00|01:00.02) : 10DE 1AD8 class=0C0330
+0:583  0:000  PCI (00|01:00.03) : 10DE 1AD9 class=0C8000
+0:583  0:000  PCI (00|00:12.00) : 8086 A379 class=118000
+0:583  0:000  PCI (00|00:14.00) : 8086 A36D class=0C0330
+0:583  0:000  PCI (00|00:14.02) : 8086 A36F class=050000
+0:583  0:000  PCI (00|00:14.03) : 8086 A370 class=028000
+0:583  0:000   - WIFI: Vendor=Intel
+0:583  0:000  PCI (00|00:16.00) : 8086 A360 class=078000
+0:583  0:000  PCI (00|00:17.00) : 8086 A352 class=010601
+0:583  0:000  PCI (00|00:1B.00) : 8086 A340 class=060400
+0:583  0:000  PCI (00|00:1C.00) : 8086 A338 class=060400
+0:583  0:000  PCI (00|00:1D.00) : 8086 A330 class=060400
+0:583  0:000  PCI (00|04:00.00) : 144D A808 class=010802
+0:583  0:000  PCI (00|00:1F.00) : 8086 A305 class=060100
+0:583  0:000  PCI (00|00:1F.03) : 8086 A348 class=040300
+0:583  0:000  PCI (00|00:1F.04) : 8086 A323 class=0C0500
+0:583  0:000  PCI (00|00:1F.05) : 8086 A324 class=0C8000
+0:583  0:000  PCI (00|00:1F.06) : 8086 15BC class=020000
+0:583  0:000   - LAN: 0 Vendor=Intel
+0:583  0:000  === [ GetDefaultSettings ] ======================
+0:583  0:000  Clover load options size = 0 bytes
+0:583  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER--00-00-00-00-00-00. Dir not exists
+0:583  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER-CF\UEFI. Dir not exists
+0:583  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER. Dir not exists
+0:583  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER-4752. Dir not exists
+0:583  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER-CF. Dir not exists
+0:584  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER-CF-4752. Dir not exists
+0:584  0:000  set OEMPath by default: EFI\CLOVER
+0:585  0:001  EFI\CLOVER\config.plist loaded: Success
+0:585  0:000  === [ GetListOfThemes ] =========================
+0:585  0:000  - [00]: tonymacx86
+0:585  0:000  - [01]: random
+0:586  0:000  - [01]: embedded
+0:586  0:000  === [ Found config plists ] =====================
+0:586  0:000  - config.plist
+0:586  0:000  === [ GetEarlyUserSettings ] ====================
+0:586  0:000  timeout set to 3
+0:586  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:591  0:005  KextsToPatch: 3 requested
+0:596  0:004   - [00]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #1 10.15.x by pmheart, daliansky and ydeng) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:617  0:021   - [01]: com.apple.driver.usb.AppleUSBXHCI (USB port limit patch #2 10.15.x by pmheart, daliansky and ydeng) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:638  0:020   - [02]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:662  0:023   - patch disabled at config
+0:666  0:004  Default theme: tonymacx86
+0:670  0:004  Hiding entries with string Windows
+0:674  0:004  Hiding entries with string BOOTX64.EFI
+0:678  0:003  Hiding entries with string Preboot
+0:682  0:003  Hiding entries with string VM
+0:686  0:004  Hiding entries with string Recovery
+0:691  0:004  === [ LoadDrivers ] =============================
+0:695  0:004  Loading VBoxHfs.efi  status=Success
+0:709  0:014   - driver needs connecting
+0:713  0:004  Loading ApfsDriverLoader.efi  status=Success
+0:727  0:013   - driver needs connecting
+0:732  0:004  Loading AptioMemoryFix.efi  status=Success
+0:746  0:013  2 drivers needs connecting ...
+0:750  0:004  PlatformDriverOverrideProtocol->GetDriver overriden
+0:754  0:004  APFS driver loaded
+0:759  0:004  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:927  0:168  === [ InitScreen ] ==============================
+0:932  0:004  Console modes reported: 6, available modes:
+0:936  0:004   - [01]: 80x25
+0:940  0:004   - [02]: 80x50
+0:948  0:007   - [03]: 100x31
+0:956  0:007   - [04]: 127x33 (current mode)
+0:960  0:003   - [05]: 100x60
+0:964  0:004   - [06]: 120x50
+0:968  0:004  SetScreenResolution: 1920x1080 - setting Mode 5
+1:201  0:233  Video mode change to mode #5: Success
+1:205  0:004  SetScreenResolution: 1920x1080 - already set
+1:214  0:008  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)
+1:218  0:004  new SelfHandle=38A39F98
+1:225  0:006  Using embedded font: Success
+1:229  0:004  === [ GetMacAddress ] ===========================
+1:234  0:004  MAC address of LAN #0= B4:2E:99:D1:C6:9F:
+1:272  0:037  === [ ScanSPD ] =================================
+1:276  0:004  Scanning SMBus [8086:A323], mmio: 0x5533C004, ioport: 0xEFA0, hostc: 0x11
+1:299  0:022  Slot: 0 Type 26 16384MB 2132MHz Vendor=Corsair PartNo=CMW64GX4M4C3200C16 SerialNo=0000000000000000
+1:322  0:022  Slot: 1 Type 26 16384MB 2132MHz Vendor=Corsair PartNo=CMW64GX4M4C3200C16 SerialNo=0000000000000000
+1:345  0:023  Slot: 2 Type 26 16384MB 2132MHz Vendor=Corsair PartNo=CMW64GX4M4C3200C16 SerialNo=0000000000000000
+1:368  0:022  Slot: 3 Type 26 16384MB 2132MHz Vendor=Corsair PartNo=CMW64GX4M4C3200C16 SerialNo=0000000000000000
+1:373  0:004  === [ GetAcpiTablesList ] =======================
+1:377  0:004  Get Acpi Tables List from RSDT:
+1:386  0:008   - [00]: FACP  A M I len=132
+1:390  0:004   - [01]: APIC  A M I len=300
+1:394  0:004   - [02]: FPDT  A M I len=68
+1:399  0:004   - [03]: FIDT  A M I len=156
+1:408  0:008   - [04]: MCFG  A M I len=60
+1:415  0:007   - [05]: SSDT  A M I len=516
+1:419  0:003   - [06]: SSDT  A M I len=6101
+1:423  0:004   - [07]: SSDT  A M I len=41826
+1:427  0:004   - [08]: SSDT  A M I len=12743
+1:432  0:004   - [09]: SSDT  A M I len=9048
+1:436  0:004   - [10]: HPET  A M I len=56
+1:440  0:004   - [11]: SSDT  A M I len=3998
+1:444  0:004   - [12]: SSDT  A M I len=11547
+1:449  0:004   - [13]: UEFI  A M I len=66
+1:453  0:004   - [14]: LPIT  A M I len=92
+1:457  0:004   - [15]: SSDT  A M I len=10206
+1:461  0:004   - [16]: SSDT  A M I len=4094
+1:466  0:004   - [17]: DBGP  A M I len=52
+1:470  0:004   - [18]: DBG2  A M I len=84
+1:475  0:004   - [19]: DMAR  A M I len=112
+1:479  0:004   - [20]: BGRT  A M I len=56
+1:483  0:004   - [21]: WSMT  A M I len=40
+1:487  0:004  Calibrated TSC Frequency = 3600484340 = 3600MHz
+1:492  0:004  === [ GetUserSettings ] =========================
+1:496  0:004  Add 1 devices (kTagTypeDict):
+1:500  0:004  USB FixOwnership: yes
+1:505  0:004  Dropping 2 tables:
+1:509  0:004   - [00]: Drop table  signature="MATS" (5354414D)
+1:543  0:033           - set table: 5354414D,                0 to drop: no
+1:555  0:012   - [01]: Drop table  signature="DMAR" (52414D44)
+1:589  0:034           - set table: 52414D44,                0 to drop: yes
+1:597  0:008   - final DSDT Fix mask=0006005C
+1:601  0:004  PatchesDSDT: 3 requested
+1:606  0:004   - [00]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:627  0:021   - [01]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:649  0:021   - [02]: (Coffee Lake Read-Only RTC Fix) lenToFind: 8, lenToReplace: 8, Target Bridge: <null string>
+1:670  0:020  Using ProductName from config: iMac19,1
+1:675  0:004  BiosVersion: not set, Using BiosVersion from clover
+1:679  0:004  BiosVersion: IM191.88Z.F000.B00.2002172336
+1:683  0:004  BiosReleaseDate: 02/17/2020
+1:687  0:004  Using EfiVersion from clover: 1037.100.345.0.0
+1:692  0:004  Using FirmwareFeatures from clover: 0xFD8FF576
+1:696  0:004  Using FirmwareFeaturesMask from clover: 0xFFDFFF7F
+1:701  0:004  Using PlatformFeature from clover: 0x22
+1:706  0:004  === [ Found DSDT tables ] =======================
+2:029  0:323  === [ ScanVolumes ] =============================
+2:033  0:004  Found 18 volumes with blockIO
+2:037  0:004  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+2:049  0:012  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+2:059  0:009          Result of bootcode detection: bootable unknown (legacy)
+2:069  0:010  - [02]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(2,GPT,4054DE03-D488-4C2B-82D7-A0CA8044573A,0x64028,0x3BD3FB0)
+2:080  0:010  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)
+2:091  0:011  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)
+2:102  0:010  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,3653C029-0AA5-44E2-9E27-4DFA9A61AE94,0x800,0x8000)
+2:112  0:009  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,F4A8DD38-4D3E-4D64-8347-443511D41F3F,0x8800,0x3A34B800)
+2:121  0:009          Result of bootcode detection: bootable Windows (vista,win)
+2:125  0:004  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)
+2:135  0:009          Result of bootcode detection: bootable Windows (vista,win)
+2:141  0:005  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)
+2:150  0:008          Result of bootcode detection: bootable unknown (legacy)
+2:155  0:005  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,5C84BCC8-5F6B-40A8-A445-BACA1AB7E34E,0x64028,0x1D161920)
+2:165  0:009          Result of bootcode detection: bootable unknown (legacy)
+2:169  0:004  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)
+2:177  0:008          hiding this volume
+2:182  0:004  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)
+2:191  0:009          Result of bootcode detection: bootable unknown (legacy)
+2:195  0:004          hiding this volume
+2:199  0:004          This is SelfVolume !!
+2:203  0:004  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)
+2:213  0:009          Result of bootcode detection: bootable unknown (legacy)
+2:217  0:004          hiding this volume
+2:221  0:004  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,64FA60D1DC414142B7C97ABC369FB108)
+2:230  0:008          hiding this volume
+2:234  0:004  - [14]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,38C7E86DA0CF9147B40BD0015E215B54)
+2:244  0:009          hiding this volume
+2:248  0:004  - [15]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,68354E6988F7464FBF32F9D080A00577)
+2:256  0:008          hiding this volume
+2:261  0:004  - [16]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,643C550371F7ED438826E53D329691EC)
+2:269  0:008          hiding this volume
+2:273  0:004  - [17]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8231C3315FC456438A7E788D1C7CA837)
+2:282  0:008          hiding this volume
+2:286  0:004  No AudioIoProtocols, status=Not Found
+2:291  0:004  === [ InitTheme ] ===============================
+2:298  0:007  use daylight theme
+2:305  0:007  Using theme 'tonymacx86' (EFI\CLOVER\themes\tonymacx86)
+2:309  0:004  file sound read: sound.wav Not Found
+2:314  0:004  Loading font from ThemeDir: Error
+2:320  0:006  theme inited
+2:325  0:004  Chosen theme tonymacx86
+2:329  0:004  after NVRAM boot-args=-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 alcid=16
+2:334  0:004  Scanning legacy ...
+2:342  0:008  === [ Dump SMC keys from NVRAM ] ================
+2:347  0:004  no AppleSMC protocol
+2:363  0:016  === [ ScanLoader ] ==============================
+2:368  0:004  - [01]: 'EFI'
+2:402  0:034          AddLoaderEntry for Volume Name=EFI
+2:407  0:004          skipped because entry is hidden
+2:411  0:004  - [02]: 'Install macOS Catalina'
+2:422  0:011          AddLoaderEntry for Volume Name=Install macOS Catalina
+2:455  0:033  - [06]: ''
+2:486  0:030  - [07]: 'EFI'
+2:505  0:019          AddLoaderEntry for Volume Name=EFI
+2:558  0:052          AddLoaderEntry for Volume Name=EFI
+2:567  0:009          skipped because entry is hidden
+2:575  0:008  - [08]: 'EFI'
+2:597  0:022          AddLoaderEntry for Volume Name=EFI
+2:649  0:052          AddLoaderEntry for Volume Name=EFI
+2:654  0:004          skipped because entry is hidden
+2:658  0:004  - [11]: 'EFI', hidden
+2:667  0:009  - [13]: 'Preboot', hidden
+2:676  0:008  - [14]: 'Macintosh HD - Data', hidden
+2:685  0:008  - [15]: 'Recovery', hidden
+2:693  0:008  - [16]: 'VM', hidden
+2:702  0:008  - [17]: 'Macintosh HD', hidden
+2:710  0:008  === [ AddCustomTool ] ===========================
+2:715  0:004  found tool \EFI\CLOVER\tools\Shell64U.efi
+2:720  0:004  Checking EFI partition Volume 1 for Clover
+2:727  0:006   Found Clover
+2:733  0:006  === [ GetEfiBootDeviceFromNvram ] ===============
+2:738  0:004  Default boot entry not found
+2:743  0:004  DefaultIndex=-1 and MainMenu.Entries.size()=11
+2:948  0:205  GUI ready
+28:417  25:468  exit from MainMenu 3
+28:421  0:004  
+Boot options:
+-------------
+28:426  0:004  BootOrder: 8: Boot0000, Boot0002, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+28:503  0:077   0) Boot0000: Windows Boot Manager, Attr: 0x1
+28:507  0:004      HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+28:511  0:004      Size: 300 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:136 = 300 -> OK)
+28:516  0:004   1) Boot0002: Windows Boot Manager, Attr: 0x1
+28:520  0:004      HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+28:524  0:004      Size: 168 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:4 = 168 -> OK)
+28:529  0:004   2) Boot0008: UEFI OS, Attr: 0x1
+28:533  0:004      HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)\EFI\BOOT\BOOTX64.EFII
+28:537  0:004      Size: 120 (Attr:4 + FPl:2 + Desc:16 + FP:94 + Opt:4 = 120 -> OK)
+28:542  0:004   3) Boot0006: UEFI: Sony Storage Media 0100, Partition 1, Attr: 0x1
+28:546  0:004      PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+28:550  0:004      Size: 228 (Attr:4 + FPl:2 + Desc:86 + FP:132 + Opt:4 = 228 -> OK)
+28:555  0:004   4) Boot0003: Samsung SSD 860 EVO 500GB, Attr: 0x1
+28:559  0:004      BBS(HD,)
+28:563  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+28:568  0:004   5) Boot0004: Samsung SSD 860 EVO 250GB, Attr: 0x1
+28:572  0:004      BBS(HD,)
+28:576  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+28:580  0:004   6) Boot0005: Samsung SSD 970 PRO 512GB, Attr: 0x1
+28:585  0:004      BBS(HD,)
+28:589  0:004      Size: 175 (Attr:4 + FPl:2 + Desc:52 + FP:113 + Opt:4 = 175 -> OK)
+28:593  0:004   7) Boot0007: Sony Storage Media 0100, Attr: 0x1
+28:598  0:004      BBS(HD,)
+28:602  0:004      Size: 161 (Attr:4 + FPl:2 + Desc:48 + FP:103 + Opt:4 = 161 -> OK)
+28:607  0:004  -------------
+28:611  0:004  
+AddBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Install macOS Catalina, 2
+28:615  0:004  AddBootOption: Clover start boot.efi at Install macOS Catalina
+28:620  0:004   FilePath: HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+28:624  0:004   BootIndex: 2
+28:628  0:004   Found BootNum: 0001
+28:639  0:010   Boot0001 saved
+28:644  0:004  AddToBootOrder: Boot0001 at index 2
+28:648  0:004  BootOrder: 8: Boot0000, Boot0002, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+28:733  0:084  SetVariable: BootOrder = Success
+28:737  0:004   9: Boot0000, Boot0002, Boot0001, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+28:823  0:086  AddBootOptionForFile: done.
+28:827  0:004  Entry 2 assigned option 0001
+28:831  0:004  
+AddBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start bootmgfw.efi at EFI, 3
+28:835  0:004  AddBootOption: Clover start bootmgfw.efi at EFI
+28:839  0:004   FilePath: HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+28:844  0:004   BootIndex: 3
+28:849  0:005   Found BootNum: 0009
+28:856  0:006   Boot0009 saved
+28:860  0:004  AddToBootOrder: Boot0009 at index 3
+28:867  0:007  BootOrder: 9: Boot0000, Boot0002, Boot0001, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+28:954  0:086  SetVariable: BootOrder = Success
+28:958  0:004   10: Boot0000, Boot0002, Boot0001, Boot0009, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+29:048  0:089  AddBootOptionForFile: done.
+29:052  0:004  Entry 3 assigned option 0009
+29:057  0:004  
+AddBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start bootmgfw.efi at EFI, 4
+29:061  0:004  AddBootOption: Clover start bootmgfw.efi at EFI
+29:065  0:004   FilePath: HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+29:069  0:004   BootIndex: 4
+29:075  0:005   Found BootNum: 000A
+29:082  0:007   Boot000A saved
+29:086  0:004  AddToBootOrder: Boot000A at index 4
+29:090  0:004  BootOrder: 10: Boot0000, Boot0002, Boot0001, Boot0009, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+29:185  0:094  SetVariable: BootOrder = Success
+29:189  0:004   11: Boot0000, Boot0002, Boot0001, Boot0009, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+29:293  0:103  AddBootOptionForFile: done.
+29:297  0:004  Entry 4 assigned option 000A
+29:301  0:004  
+Boot options:
+-------------
+29:305  0:004  BootOrder: 11: Boot0000, Boot0002, Boot0001, Boot0009, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+29:409  0:103   0) Boot0000: Windows Boot Manager, Attr: 0x1
+29:414  0:004      HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+29:418  0:004      Size: 300 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:136 = 300 -> OK)
+29:422  0:004   1) Boot0002: Windows Boot Manager, Attr: 0x1
+29:426  0:004      HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+29:430  0:004      Size: 168 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:4 = 168 -> OK)
+29:435  0:004   2) Boot0001: Clover start boot.efi at Install macOS Catalina, Attr: 0x1
+29:439  0:004      HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+29:443  0:004      Size: 274 (Attr:4 + FPl:2 + Desc:96 + FP:102 + Opt:70 = 274 -> OK)
+29:448  0:004   3) Boot0009: Clover start bootmgfw.efi at EFI, Attr: 0x1
+29:452  0:004      HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+29:456  0:004      Size: 214 (Attr:4 + FPl:2 + Desc:66 + FP:102 + Opt:40 = 214 -> OK)
+29:461  0:004   4) Boot000A: Clover start bootmgfw.efi at EFI, Attr: 0x1
+29:465  0:004      HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+29:469  0:004      Size: 214 (Attr:4 + FPl:2 + Desc:66 + FP:102 + Opt:40 = 214 -> OK)
+29:474  0:004   5) Boot0008: UEFI OS, Attr: 0x1
+29:478  0:004      HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)\EFI\BOOT\BOOTX64.EFII
+29:482  0:004      Size: 120 (Attr:4 + FPl:2 + Desc:16 + FP:94 + Opt:4 = 120 -> OK)
+29:487  0:004   6) Boot0006: UEFI: Sony Storage Media 0100, Partition 1, Attr: 0x1
+29:491  0:004      PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+29:495  0:004      Size: 228 (Attr:4 + FPl:2 + Desc:86 + FP:132 + Opt:4 = 228 -> OK)
+29:500  0:004   7) Boot0003: Samsung SSD 860 EVO 500GB, Attr: 0x1
+29:504  0:004      BBS(HD,)
+29:508  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+29:513  0:004   8) Boot0004: Samsung SSD 860 EVO 250GB, Attr: 0x1
+29:517  0:004      BBS(HD,)
+29:521  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+29:525  0:004   9) Boot0005: Samsung SSD 970 PRO 512GB, Attr: 0x1
+29:530  0:004      BBS(HD,)
+29:534  0:004      Size: 175 (Attr:4 + FPl:2 + Desc:52 + FP:113 + Opt:4 = 175 -> OK)
+29:539  0:004  10) Boot0007: Sony Storage Media 0100, Attr: 0x1
+29:543  0:004      BBS(HD,)
+29:547  0:003      Size: 161 (Attr:4 + FPl:2 + Desc:48 + FP:103 + Opt:4 = 161 -> OK)
+29:551  0:004  -------------
+29:561  0:009  ReinitSelfLib after theme change
+29:565  0:004  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)
+29:570  0:004  new SelfHandle=38A39F98
+29:574  0:004  === [ ScanVolumes ] =============================
+29:578  0:004  Found 18 volumes with blockIO
+29:583  0:004  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+29:592  0:009  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+29:601  0:008          Result of bootcode detection: bootable unknown (legacy)
+29:605  0:004  - [02]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(2,GPT,4054DE03-D488-4C2B-82D7-A0CA8044573A,0x64028,0x3BD3FB0)
+29:615  0:009  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)
+29:624  0:009  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)
+29:636  0:012  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,3653C029-0AA5-44E2-9E27-4DFA9A61AE94,0x800,0x8000)
+29:645  0:009  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,F4A8DD38-4D3E-4D64-8347-443511D41F3F,0x8800,0x3A34B800)
+29:655  0:009          Result of bootcode detection: bootable Windows (vista,win)
+29:659  0:004  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)
+29:668  0:009          Result of bootcode detection: bootable Windows (vista,win)
+29:673  0:005  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)
+29:683  0:009          Result of bootcode detection: bootable unknown (legacy)
+29:688  0:005  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,5C84BCC8-5F6B-40A8-A445-BACA1AB7E34E,0x64028,0x1D161920)
+29:698  0:009          Result of bootcode detection: bootable unknown (legacy)
+29:702  0:004  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)
+29:711  0:008          hiding this volume
+29:715  0:004  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)
+29:724  0:008          Result of bootcode detection: bootable unknown (legacy)
+29:728  0:004          hiding this volume
+29:732  0:004          This is SelfVolume !!
+29:737  0:004  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)
+29:745  0:008          Result of bootcode detection: bootable unknown (legacy)
+29:750  0:005          hiding this volume
+29:755  0:004  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,64FA60D1DC414142B7C97ABC369FB108)
+29:763  0:008          hiding this volume
+29:768  0:004  - [14]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,38C7E86DA0CF9147B40BD0015E215B54)
+29:776  0:008          hiding this volume
+29:781  0:004  - [15]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,68354E6988F7464FBF32F9D080A00577)
+29:789  0:008          hiding this volume
+29:794  0:004  - [16]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,643C550371F7ED438826E53D329691EC)
+29:806  0:012          hiding this volume
+29:810  0:004  - [17]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8231C3315FC456438A7E788D1C7CA837)
+29:819  0:008          hiding this volume
+29:824  0:004  No AudioIoProtocols, status=Not Found
+29:828  0:004  theme inited
+29:832  0:004  Chosen theme tonymacx86
+29:837  0:004  after NVRAM boot-args=-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 alcid=16
+29:841  0:004  Scanning legacy ...
+29:847  0:006  === [ ScanLoader ] ==============================
+29:852  0:004  - [01]: 'EFI'
+29:881  0:029          AddLoaderEntry for Volume Name=EFI
+29:885  0:004          skipped because entry is hidden
+29:890  0:004  - [02]: 'Install macOS Catalina'
+29:898  0:008          AddLoaderEntry for Volume Name=Install macOS Catalina
+29:925  0:027  - [06]: ''
+29:958  0:032  - [07]: 'EFI'
+29:979  0:020          AddLoaderEntry for Volume Name=EFI
+30:027  0:048          AddLoaderEntry for Volume Name=EFI
+30:032  0:004          skipped because entry is hidden
+30:036  0:004  - [08]: 'EFI'
+30:055  0:018          AddLoaderEntry for Volume Name=EFI
+30:104  0:049          AddLoaderEntry for Volume Name=EFI
+30:109  0:004          skipped because entry is hidden
+30:113  0:004  - [11]: 'EFI', hidden
+30:121  0:008  - [13]: 'Preboot', hidden
+30:130  0:008  - [14]: 'Macintosh HD - Data', hidden
+30:139  0:008  - [15]: 'Recovery', hidden
+30:147  0:008  - [16]: 'VM', hidden
+30:156  0:008  - [17]: 'Macintosh HD', hidden
+30:164  0:008  === [ AddCustomTool ] ===========================
+30:169  0:004  found tool \EFI\CLOVER\tools\Shell64U.efi
+30:173  0:004  Checking EFI partition Volume 1 for Clover
+30:181  0:007   Found Clover
+30:185  0:004  === [ GetEfiBootDeviceFromNvram ] ===============
+30:190  0:004  Default boot entry not found
+30:195  0:004  DefaultIndex=-1 and MainMenu.Entries.size()=11
+88:692  58:497  exit from MainMenu 3
+88:697  0:004  
+Boot options:
+-------------
+88:701  0:004  BootOrder: 11: Boot0000, Boot0002, Boot0001, Boot0009, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+88:808  0:106   0) Boot0000: Windows Boot Manager, Attr: 0x1
+88:812  0:004      HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+88:816  0:004      Size: 300 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:136 = 300 -> OK)
+88:821  0:004   1) Boot0002: Windows Boot Manager, Attr: 0x1
+88:825  0:004      HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+88:829  0:004      Size: 168 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:4 = 168 -> OK)
+88:834  0:004   2) Boot0001: Clover start boot.efi at Install macOS Catalina, Attr: 0x1
+88:838  0:004      HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+88:843  0:004      Size: 274 (Attr:4 + FPl:2 + Desc:96 + FP:102 + Opt:70 = 274 -> OK)
+88:847  0:004   3) Boot0009: Clover start bootmgfw.efi at EFI, Attr: 0x1
+88:851  0:004      HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+88:855  0:003      Size: 214 (Attr:4 + FPl:2 + Desc:66 + FP:102 + Opt:40 = 214 -> OK)
+88:859  0:004   4) Boot000A: Clover start bootmgfw.efi at EFI, Attr: 0x1
+88:863  0:003      HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+88:871  0:008      Size: 214 (Attr:4 + FPl:2 + Desc:66 + FP:102 + Opt:40 = 214 -> OK)
+88:875  0:004   5) Boot0008: UEFI OS, Attr: 0x1
+88:879  0:003      HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)\EFI\BOOT\BOOTX64.EFII
+88:883  0:003      Size: 120 (Attr:4 + FPl:2 + Desc:16 + FP:94 + Opt:4 = 120 -> OK)
+88:887  0:004   6) Boot0006: UEFI: Sony Storage Media 0100, Partition 1, Attr: 0x1
+88:891  0:003      PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+88:896  0:004      Size: 228 (Attr:4 + FPl:2 + Desc:86 + FP:132 + Opt:4 = 228 -> OK)
+88:900  0:004   7) Boot0003: Samsung SSD 860 EVO 500GB, Attr: 0x1
+88:905  0:004      BBS(HD,)
+88:910  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+88:914  0:004   8) Boot0004: Samsung SSD 860 EVO 250GB, Attr: 0x1
+88:918  0:004      BBS(HD,)
+88:923  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+88:928  0:004   9) Boot0005: Samsung SSD 970 PRO 512GB, Attr: 0x1
+88:932  0:004      BBS(HD,)
+88:937  0:004      Size: 175 (Attr:4 + FPl:2 + Desc:52 + FP:113 + Opt:4 = 175 -> OK)
+88:941  0:004  10) Boot0007: Sony Storage Media 0100, Attr: 0x1
+88:946  0:004      BBS(HD,)
+88:950  0:004      Size: 161 (Attr:4 + FPl:2 + Desc:48 + FP:103 + Opt:4 = 161 -> OK)
+88:954  0:004  -------------
+88:959  0:004  
+DeleteBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI
+88:963  0:004  FindBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI
+88:967  0:004  BootOrder: 11: Boot0000, Boot0002, Boot0001, Boot0009, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+89:071  0:103   Searching for: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII (Len: 126)
+89:075  0:004   and for: HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII (Len: 102)
+89:080  0:004  FindBootOptionForFile: Found Boot0001, at index 2
+89:085  0:004  	deleted option: 0001
+89:089  0:004  DeleteBootOption: Boot0001
+89:095  0:005   Boot0001 deleted
+89:099  0:003  DeleteFromBootOrder: 0001
+89:103  0:004  BootOrder: 11: Boot0000, Boot0002, Boot0001, Boot0009, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+89:206  0:102   found at index 2
+89:211  0:005  SetVariable: BootOrder = Success
+89:216  0:004  FindBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI
+89:220  0:004  BootOrder: 10: Boot0000, Boot0002, Boot0009, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+89:315  0:095   Searching for: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII (Len: 126)
+89:320  0:004   and for: HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII (Len: 102)
+89:325  0:005  FindBootOptionForFile: Found Boot0009, at index 2
+89:329  0:004  	deleted option: 0009
+89:333  0:004  DeleteBootOption: Boot0009
+89:339  0:005   Boot0009 deleted
+89:343  0:004  DeleteFromBootOrder: 0009
+89:347  0:004  BootOrder: 10: Boot0000, Boot0002, Boot0009, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+89:441  0:094   found at index 2
+89:446  0:005  SetVariable: BootOrder = Success
+89:451  0:004  FindBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI
+89:455  0:004  BootOrder: 9: Boot0000, Boot0002, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+89:543  0:088   Searching for: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII (Len: 126)
+89:547  0:004   and for: HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII (Len: 102)
+89:552  0:004  FindBootOptionForFile: Found Boot000A, at index 2
+89:557  0:004  	deleted option: 000A
+89:561  0:004  DeleteBootOption: Boot000A
+89:566  0:004   Boot000A deleted
+89:570  0:004  DeleteFromBootOrder: 000A
+89:575  0:004  BootOrder: 9: Boot0000, Boot0002, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+89:667  0:092   found at index 2
+89:675  0:008  SetVariable: BootOrder = Success
+89:680  0:004  FindBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI
+89:684  0:004  BootOrder: 8: Boot0000, Boot0002, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+89:765  0:081   Searching for: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII (Len: 126)
+89:769  0:004   and for: HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII (Len: 102)
+89:775  0:005  FindBootOptionForFile: Not found.
+89:778  0:003  
+Boot options:
+-------------
+89:782  0:003  BootOrder: 8: Boot0000, Boot0002, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+89:864  0:081   0) Boot0000: Windows Boot Manager, Attr: 0x1
+89:868  0:004      HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+89:873  0:004      Size: 300 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:136 = 300 -> OK)
+89:877  0:004   1) Boot0002: Windows Boot Manager, Attr: 0x1
+89:881  0:004      HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+89:886  0:004      Size: 168 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:4 = 168 -> OK)
+89:890  0:004   2) Boot0008: UEFI OS, Attr: 0x1
+89:895  0:004      HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)\EFI\BOOT\BOOTX64.EFII
+89:899  0:004      Size: 120 (Attr:4 + FPl:2 + Desc:16 + FP:94 + Opt:4 = 120 -> OK)
+89:904  0:004   3) Boot0006: UEFI: Sony Storage Media 0100, Partition 1, Attr: 0x1
+89:908  0:004      PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+89:912  0:004      Size: 228 (Attr:4 + FPl:2 + Desc:86 + FP:132 + Opt:4 = 228 -> OK)
+89:917  0:004   4) Boot0003: Samsung SSD 860 EVO 500GB, Attr: 0x1
+89:921  0:004      BBS(HD,)
+89:926  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+89:930  0:004   5) Boot0004: Samsung SSD 860 EVO 250GB, Attr: 0x1
+89:934  0:004      BBS(HD,)
+89:938  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+89:943  0:004   6) Boot0005: Samsung SSD 970 PRO 512GB, Attr: 0x1
+89:948  0:004      BBS(HD,)
+89:952  0:004      Size: 175 (Attr:4 + FPl:2 + Desc:52 + FP:113 + Opt:4 = 175 -> OK)
+89:956  0:004   7) Boot0007: Sony Storage Media 0100, Attr: 0x1
+89:961  0:004      BBS(HD,)
+89:965  0:004      Size: 161 (Attr:4 + FPl:2 + Desc:48 + FP:103 + Opt:4 = 161 -> OK)
+89:969  0:004  -------------
+89:979  0:009  ReinitSelfLib after theme change
+89:983  0:004  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)
+89:987  0:004  new SelfHandle=38A39F98
+89:992  0:004  === [ ScanVolumes ] =============================
+89:996  0:004  Found 18 volumes with blockIO
+90:000  0:004  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+90:010  0:009  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+90:019  0:009          Result of bootcode detection: bootable unknown (legacy)
+90:024  0:004  - [02]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(2,GPT,4054DE03-D488-4C2B-82D7-A0CA8044573A,0x64028,0x3BD3FB0)
+90:033  0:008  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)
+90:042  0:009  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)
+90:052  0:009  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,3653C029-0AA5-44E2-9E27-4DFA9A61AE94,0x800,0x8000)
+90:061  0:008  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,F4A8DD38-4D3E-4D64-8347-443511D41F3F,0x8800,0x3A34B800)
+90:070  0:009          Result of bootcode detection: bootable Windows (vista,win)
+90:074  0:004  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)
+90:083  0:009          Result of bootcode detection: bootable Windows (vista,win)
+90:089  0:005  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)
+90:098  0:009          Result of bootcode detection: bootable unknown (legacy)
+90:103  0:005  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,5C84BCC8-5F6B-40A8-A445-BACA1AB7E34E,0x64028,0x1D161920)
+90:113  0:009          Result of bootcode detection: bootable unknown (legacy)
+90:117  0:004  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)
+90:126  0:008          hiding this volume
+90:130  0:004  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)
+90:138  0:008          Result of bootcode detection: bootable unknown (legacy)
+90:143  0:004          hiding this volume
+90:148  0:004          This is SelfVolume !!
+90:152  0:004  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)
+90:160  0:008          Result of bootcode detection: bootable unknown (legacy)
+90:168  0:007          hiding this volume
+90:172  0:004  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,64FA60D1DC414142B7C97ABC369FB108)
+90:181  0:008          hiding this volume
+90:186  0:004  - [14]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,38C7E86DA0CF9147B40BD0015E215B54)
+90:194  0:008          hiding this volume
+90:198  0:004  - [15]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,68354E6988F7464FBF32F9D080A00577)
+90:207  0:008          hiding this volume
+90:211  0:004  - [16]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,643C550371F7ED438826E53D329691EC)
+90:220  0:008          hiding this volume
+90:224  0:004  - [17]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8231C3315FC456438A7E788D1C7CA837)
+90:233  0:008          hiding this volume
+90:238  0:004  No AudioIoProtocols, status=Not Found
+90:242  0:004  theme inited
+90:246  0:004  Chosen theme tonymacx86
+90:251  0:004  after NVRAM boot-args=-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 alcid=16
+90:255  0:004  Scanning legacy ...
+90:262  0:006  === [ ScanLoader ] ==============================
+90:266  0:004  - [01]: 'EFI'
+90:294  0:028          AddLoaderEntry for Volume Name=EFI
+90:299  0:004          skipped because entry is hidden
+90:303  0:004  - [02]: 'Install macOS Catalina'
+90:312  0:008          AddLoaderEntry for Volume Name=Install macOS Catalina
+90:338  0:026  - [06]: ''
+90:366  0:028  - [07]: 'EFI'
+90:384  0:018          AddLoaderEntry for Volume Name=EFI
+90:434  0:049          AddLoaderEntry for Volume Name=EFI
+90:439  0:004          skipped because entry is hidden
+90:443  0:004  - [08]: 'EFI'
+90:462  0:019          AddLoaderEntry for Volume Name=EFI
+90:511  0:049          AddLoaderEntry for Volume Name=EFI
+90:515  0:004          skipped because entry is hidden
+90:519  0:004  - [11]: 'EFI', hidden
+90:528  0:008  - [13]: 'Preboot', hidden
+90:537  0:008  - [14]: 'Macintosh HD - Data', hidden
+90:545  0:008  - [15]: 'Recovery', hidden
+90:554  0:008  - [16]: 'VM', hidden
+90:562  0:008  - [17]: 'Macintosh HD', hidden
+90:571  0:008  === [ AddCustomTool ] ===========================
+90:575  0:004  found tool \EFI\CLOVER\tools\Shell64U.efi
+90:579  0:004  Checking EFI partition Volume 1 for Clover
+90:584  0:004   Found Clover
+90:589  0:004  === [ GetEfiBootDeviceFromNvram ] ===============
+90:593  0:004  Default boot entry not found
+90:597  0:004  DefaultIndex=-1 and MainMenu.Entries.size()=11
+100:496  9:899  exit from MainMenu 3
+100:501  0:004  
+Boot options:
+-------------
+100:505  0:004  BootOrder: 8: Boot0000, Boot0002, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+100:584  0:078   0) Boot0000: Windows Boot Manager, Attr: 0x1
+100:588  0:004      HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+100:592  0:004      Size: 300 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:136 = 300 -> OK)
+100:597  0:004   1) Boot0002: Windows Boot Manager, Attr: 0x1
+100:601  0:004      HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+100:606  0:004      Size: 168 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:4 = 168 -> OK)
+100:610  0:004   2) Boot0008: UEFI OS, Attr: 0x1
+100:614  0:004      HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)\EFI\BOOT\BOOTX64.EFII
+100:619  0:004      Size: 120 (Attr:4 + FPl:2 + Desc:16 + FP:94 + Opt:4 = 120 -> OK)
+100:623  0:004   3) Boot0006: UEFI: Sony Storage Media 0100, Partition 1, Attr: 0x1
+100:628  0:004      PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+100:632  0:004      Size: 228 (Attr:4 + FPl:2 + Desc:86 + FP:132 + Opt:4 = 228 -> OK)
+100:637  0:004   4) Boot0003: Samsung SSD 860 EVO 500GB, Attr: 0x1
+100:641  0:004      BBS(HD,)
+100:645  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+100:649  0:004   5) Boot0004: Samsung SSD 860 EVO 250GB, Attr: 0x1
+100:654  0:004      BBS(HD,)
+100:658  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+100:663  0:004   6) Boot0005: Samsung SSD 970 PRO 512GB, Attr: 0x1
+100:667  0:004      BBS(HD,)
+100:671  0:004      Size: 175 (Attr:4 + FPl:2 + Desc:52 + FP:113 + Opt:4 = 175 -> OK)
+100:676  0:004   7) Boot0007: Sony Storage Media 0100, Attr: 0x1
+100:680  0:004      BBS(HD,)
+100:684  0:004      Size: 161 (Attr:4 + FPl:2 + Desc:48 + FP:103 + Opt:4 = 161 -> OK)
+100:689  0:004  -------------
+100:693  0:004  
+AddBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Install macOS Catalina, 2
+100:698  0:004  AddBootOption: Clover start boot.efi at Install macOS Catalina
+100:702  0:004   FilePath: HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+100:706  0:004   BootIndex: 2
+100:711  0:004   Found BootNum: 0001
+100:718  0:007   Boot0001 saved
+100:722  0:004  AddToBootOrder: Boot0001 at index 2
+100:727  0:004  BootOrder: 8: Boot0000, Boot0002, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+100:805  0:078  SetVariable: BootOrder = Success
+100:809  0:003   9: Boot0000, Boot0002, Boot0001, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+100:901  0:091  AddBootOptionForFile: done.
+100:905  0:004  Entry 2 assigned option 0001
+100:910  0:004  
+AddBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start bootmgfw.efi at EFI, 3
+100:914  0:004  AddBootOption: Clover start bootmgfw.efi at EFI
+100:918  0:004   FilePath: HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+100:923  0:004   BootIndex: 3
+100:928  0:005   Found BootNum: 0009
+100:936  0:007   Boot0009 saved
+100:940  0:004  AddToBootOrder: Boot0009 at index 3
+100:944  0:004  BootOrder: 9: Boot0000, Boot0002, Boot0001, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+101:041  0:097  SetVariable: BootOrder = Success
+101:045  0:004   10: Boot0000, Boot0002, Boot0001, Boot0009, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+101:139  0:093  AddBootOptionForFile: done.
+101:143  0:004  Entry 3 assigned option 0009
+101:148  0:004  
+AddBootOptionForFile: 3994E518, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start bootmgfw.efi at EFI, 4
+101:152  0:004  AddBootOption: Clover start bootmgfw.efi at EFI
+101:156  0:004   FilePath: HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+101:160  0:004   BootIndex: 4
+101:166  0:005   Found BootNum: 000A
+101:173  0:006   Boot000A saved
+101:177  0:004  AddToBootOrder: Boot000A at index 4
+101:182  0:004  BootOrder: 10: Boot0000, Boot0002, Boot0001, Boot0009, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+101:276  0:094  SetVariable: BootOrder = Success
+101:281  0:004   11: Boot0000, Boot0002, Boot0001, Boot0009, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+101:379  0:098  AddBootOptionForFile: done.
+101:383  0:004  Entry 4 assigned option 000A
+101:387  0:004  
+Boot options:
+-------------
+101:391  0:004  BootOrder: 11: Boot0000, Boot0002, Boot0001, Boot0009, Boot000A, Boot0008, Boot0006, Boot0003, Boot0004, Boot0005, Boot0007
+101:495  0:104   0) Boot0000: Windows Boot Manager, Attr: 0x1
+101:500  0:004      HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+101:504  0:004      Size: 300 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:136 = 300 -> OK)
+101:508  0:004   1) Boot0002: Windows Boot Manager, Attr: 0x1
+101:512  0:004      HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)\EFI\MICROSOFT\BOOT\BOOTMGFW.EFII
+101:517  0:004      Size: 168 (Attr:4 + FPl:2 + Desc:42 + FP:116 + Opt:4 = 168 -> OK)
+101:522  0:004   2) Boot0001: Clover start boot.efi at Install macOS Catalina, Attr: 0x1
+101:526  0:004      HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+101:530  0:004      Size: 274 (Attr:4 + FPl:2 + Desc:96 + FP:102 + Opt:70 = 274 -> OK)
+101:534  0:004   3) Boot0009: Clover start bootmgfw.efi at EFI, Attr: 0x1
+101:539  0:004      HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+101:543  0:004      Size: 214 (Attr:4 + FPl:2 + Desc:66 + FP:102 + Opt:40 = 214 -> OK)
+101:548  0:004   4) Boot000A: Clover start bootmgfw.efi at EFI, Attr: 0x1
+101:552  0:004      HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+101:556  0:004      Size: 214 (Attr:4 + FPl:2 + Desc:66 + FP:102 + Opt:40 = 214 -> OK)
+101:561  0:004   5) Boot0008: UEFI OS, Attr: 0x1
+101:565  0:004      HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)\EFI\BOOT\BOOTX64.EFII
+101:570  0:004      Size: 120 (Attr:4 + FPl:2 + Desc:16 + FP:94 + Opt:4 = 120 -> OK)
+101:574  0:004   6) Boot0006: UEFI: Sony Storage Media 0100, Partition 1, Attr: 0x1
+101:579  0:004      PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+101:583  0:004      Size: 228 (Attr:4 + FPl:2 + Desc:86 + FP:132 + Opt:4 = 228 -> OK)
+101:587  0:004   7) Boot0003: Samsung SSD 860 EVO 500GB, Attr: 0x1
+101:592  0:004      BBS(HD,)
+101:596  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+101:601  0:004   8) Boot0004: Samsung SSD 860 EVO 250GB, Attr: 0x1
+101:605  0:003      BBS(HD,)
+101:609  0:004      Size: 173 (Attr:4 + FPl:2 + Desc:52 + FP:111 + Opt:4 = 173 -> OK)
+101:614  0:004   9) Boot0005: Samsung SSD 970 PRO 512GB, Attr: 0x1
+101:618  0:004      BBS(HD,)
+101:622  0:004      Size: 175 (Attr:4 + FPl:2 + Desc:52 + FP:113 + Opt:4 = 175 -> OK)
+101:627  0:004  10) Boot0007: Sony Storage Media 0100, Attr: 0x1
+101:631  0:004      BBS(HD,)
+101:635  0:004      Size: 161 (Attr:4 + FPl:2 + Desc:48 + FP:103 + Opt:4 = 161 -> OK)
+101:639  0:004  -------------
+101:648  0:008  ReinitSelfLib after theme change
+101:652  0:004  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)
+101:657  0:004  new SelfHandle=38A39F98
+101:661  0:004  === [ ScanVolumes ] =============================
+101:666  0:004  Found 18 volumes with blockIO
+101:670  0:004  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+101:679  0:009  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+101:688  0:009          Result of bootcode detection: bootable unknown (legacy)
+101:693  0:004  - [02]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(2,GPT,4054DE03-D488-4C2B-82D7-A0CA8044573A,0x64028,0x3BD3FB0)
+101:702  0:009  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)
+101:711  0:008  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)
+101:723  0:012  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,3653C029-0AA5-44E2-9E27-4DFA9A61AE94,0x800,0x8000)
+101:732  0:009  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,F4A8DD38-4D3E-4D64-8347-443511D41F3F,0x8800,0x3A34B800)
+101:742  0:010          Result of bootcode detection: bootable Windows (vista,win)
+101:746  0:004  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)
+101:755  0:008          Result of bootcode detection: bootable Windows (vista,win)
+101:760  0:005  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)
+101:768  0:008          Result of bootcode detection: bootable unknown (legacy)
+101:778  0:009  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,5C84BCC8-5F6B-40A8-A445-BACA1AB7E34E,0x64028,0x1D161920)
+101:791  0:012          Result of bootcode detection: bootable unknown (legacy)
+101:795  0:004  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)
+101:803  0:007          hiding this volume
+101:807  0:003  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)
+101:815  0:008          Result of bootcode detection: bootable unknown (legacy)
+101:820  0:004          hiding this volume
+101:825  0:004          This is SelfVolume !!
+101:829  0:004  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)
+101:838  0:008          Result of bootcode detection: bootable unknown (legacy)
+101:842  0:004          hiding this volume
+101:846  0:004  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,64FA60D1DC414142B7C97ABC369FB108)
+101:855  0:008          hiding this volume
+101:859  0:004  - [14]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,38C7E86DA0CF9147B40BD0015E215B54)
+101:868  0:008          hiding this volume
+101:873  0:004  - [15]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,68354E6988F7464FBF32F9D080A00577)
+101:881  0:008          hiding this volume
+101:886  0:004  - [16]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,643C550371F7ED438826E53D329691EC)
+101:894  0:008          hiding this volume
+101:899  0:004  - [17]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8231C3315FC456438A7E788D1C7CA837)
+101:911  0:011          hiding this volume
+101:915  0:004  No AudioIoProtocols, status=Not Found
+101:920  0:004  theme inited
+101:924  0:004  Chosen theme tonymacx86
+101:929  0:004  after NVRAM boot-args=-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 alcid=16
+101:933  0:004  Scanning legacy ...
+101:939  0:005  === [ ScanLoader ] ==============================
+101:943  0:004  - [01]: 'EFI'
+101:972  0:028          AddLoaderEntry for Volume Name=EFI
+101:976  0:004          skipped because entry is hidden
+101:980  0:003  - [02]: 'Install macOS Catalina'
+101:989  0:009          AddLoaderEntry for Volume Name=Install macOS Catalina
+102:015  0:025  - [06]: ''
+102:043  0:028  - [07]: 'EFI'
+102:060  0:017          AddLoaderEntry for Volume Name=EFI
+102:109  0:049          AddLoaderEntry for Volume Name=EFI
+102:113  0:004          skipped because entry is hidden
+102:117  0:004  - [08]: 'EFI'
+102:136  0:019          AddLoaderEntry for Volume Name=EFI
+102:185  0:048          AddLoaderEntry for Volume Name=EFI
+102:189  0:004          skipped because entry is hidden
+102:193  0:004  - [11]: 'EFI', hidden
+102:206  0:012  - [13]: 'Preboot', hidden
+102:215  0:008  - [14]: 'Macintosh HD - Data', hidden
+102:223  0:008  - [15]: 'Recovery', hidden
+102:231  0:008  - [16]: 'VM', hidden
+102:240  0:008  - [17]: 'Macintosh HD', hidden
+102:252  0:011  === [ AddCustomTool ] ===========================
+102:256  0:004  found tool \EFI\CLOVER\tools\Shell64U.efi
+102:260  0:004  Checking EFI partition Volume 1 for Clover
+102:265  0:004   Found Clover
+102:269  0:004  === [ GetEfiBootDeviceFromNvram ] ===============
+102:273  0:004  Default boot entry not found
+102:277  0:004  DefaultIndex=-1 and MainMenu.Entries.size()=11
+108:547  6:269  exit from MainMenu 1
+136:243  27:696  exit from MainMenu 1
+0:100  0:100  MemLog inited, TSC freq: 3600566620
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  
+0:100  0:000  Now is 12.05.2020,  17:35:29 (GMT)
+0:100  0:000  Starting Clover revision: 5107 (HEAD, commit a3f3053c3) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/macman/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 17 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000) @38A38F98
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  Clover : Image base = 0x31EEF000
+0:584  0:484  SimpleTextEx Status=Success
+0:584  0:000  === [ Get Smbios ] ==============================
+0:584  0:000  Type 16 Index = 0
+0:584  0:000  Total Memory Slots Count = 4
+0:584  0:000  Type 17 Index = 0
+0:584  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:584  0:000  SmbiosTable.Type17->Size = 16384MB
+0:584  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:584  0:000  SmbiosTable.Type17->Vendor = 029E
+0:584  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:584  0:000  SmbiosTable.Type17->PartNumber = CMW64GX4M4C3200C16  
+0:584  0:000  Type 17 Index = 1
+0:584  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:584  0:000  SmbiosTable.Type17->Size = 16384MB
+0:584  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:584  0:000  SmbiosTable.Type17->Vendor = 029E
+0:584  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:584  0:000  SmbiosTable.Type17->PartNumber = CMW64GX4M4C3200C16  
+0:584  0:000  Type 17 Index = 2
+0:584  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:584  0:000  SmbiosTable.Type17->Size = 16384MB
+0:584  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:584  0:000  SmbiosTable.Type17->Vendor = 029E
+0:584  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:584  0:000  SmbiosTable.Type17->PartNumber = CMW64GX4M4C3200C16  
+0:584  0:000  Type 17 Index = 3
+0:584  0:000  SmbiosTable.Type17->Speed = 3200MHz
+0:584  0:000  SmbiosTable.Type17->Size = 16384MB
+0:584  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:584  0:000  SmbiosTable.Type17->Vendor = 029E
+0:584  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:584  0:000  SmbiosTable.Type17->PartNumber = CMW64GX4M4C3200C16  
+0:584  0:000  Boot status=0
+0:584  0:000  Running on: 'Z390 AORUS MASTER' with board 'Z390 AORUS MASTER-CF'
+0:584  0:000  === [ GetCPUProperties ] ========================
+0:584  0:000  CPU Vendor = 756E6547 Model=906ED
+0:584  0:000   The CPU supported SSE4.1
+0:584  0:000  BrandString = Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+0:584  0:000   The CPU supported turbo
+0:584  0:000  MSR 0x35               80010
+0:584  0:000   TSC/CCC Information Leaf:
+0:584  0:000    numerator     : 300
+0:584  0:000    denominator   : 2
+0:584  0:000   Calibrated ARTFrequency: 24003777
+0:584  0:000   Rounded ARTFrequency: 24000000
+0:584  0:000  MSR 0xE2 before patch 1E008000
+0:584  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:584  0:000  MSR 0xCE              08080838_F1012400
+0:584  0:000  corrected FLEX_RATIO = E0000
+0:584  0:000  FSBFrequency = 134 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:584  0:000  MaxDiv/MinDiv: 36.0/8
+0:584  0:000  Turbo: 48/48/48/48
+0:584  0:000  Features: 0xBFEBFBFF
+0:584  0:000  Threads: 16
+0:584  0:000  Cores: 8
+0:584  0:000  FSB: 100 MHz
+0:584  0:000  CPU: 4800 MHz
+0:584  0:000  TSC: 4800 MHz
+0:584  0:000  PIS: 100 MHz
+0:584  0:000  ExternalClock: 25 MHz
+0:584  0:000  === [ GetDevices ] ==============================
+0:584  0:000  GOP found at: PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+0:584  0:000  PCI (00|00:00.00) : 8086 3E30 class=060000
+0:584  0:000  PCI (00|00:01.00) : 8086 1901 class=060400
+0:584  0:000  PCI (00|01:00.00) : 10DE 1E81 class=030000
+0:584  0:000   - GOP: Provided by device
+0:584  0:000   - GFX: Model=Unknown family 164 (Turing)
+0:584  0:000  PCI (00|01:00.01) : 10DE 10F8 class=040300
+0:584  0:000   - HDMI Audio: 
+0:584  0:000  PCI (00|01:00.02) : 10DE 1AD8 class=0C0330
+0:584  0:000  PCI (00|01:00.03) : 10DE 1AD9 class=0C8000
+0:584  0:000  PCI (00|00:12.00) : 8086 A379 class=118000
+0:584  0:000  PCI (00|00:14.00) : 8086 A36D class=0C0330
+0:584  0:000  PCI (00|00:14.02) : 8086 A36F class=050000
+0:584  0:000  PCI (00|00:14.03) : 8086 A370 class=028000
+0:584  0:000   - WIFI: Vendor=Intel
+0:584  0:000  PCI (00|00:16.00) : 8086 A360 class=078000
+0:584  0:000  PCI (00|00:17.00) : 8086 A352 class=010601
+0:584  0:000  PCI (00|00:1B.00) : 8086 A340 class=060400
+0:584  0:000  PCI (00|00:1C.00) : 8086 A338 class=060400
+0:584  0:000  PCI (00|00:1D.00) : 8086 A330 class=060400
+0:584  0:000  PCI (00|04:00.00) : 144D A808 class=010802
+0:584  0:000  PCI (00|00:1F.00) : 8086 A305 class=060100
+0:584  0:000  PCI (00|00:1F.03) : 8086 A348 class=040300
+0:584  0:000  PCI (00|00:1F.04) : 8086 A323 class=0C0500
+0:584  0:000  PCI (00|00:1F.05) : 8086 A324 class=0C8000
+0:584  0:000  PCI (00|00:1F.06) : 8086 15BC class=020000
+0:584  0:000   - LAN: 0 Vendor=Intel
+0:584  0:000  === [ GetDefaultSettings ] ======================
+0:584  0:000  Clover load options size = 0 bytes
+0:585  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER--00-00-00-00-00-00. Dir not exists
+0:585  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER-CF\UEFI. Dir not exists
+0:585  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER. Dir not exists
+0:585  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER-4800. Dir not exists
+0:585  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER-CF. Dir not exists
+0:585  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z390 AORUS MASTER-CF-4800. Dir not exists
+0:585  0:000  set OEMPath by default: EFI\CLOVER
+0:586  0:001  EFI\CLOVER\config.plist loaded: Success
+0:586  0:000  === [ GetListOfThemes ] =========================
+0:587  0:000  - [00]: tonymacx86
+0:587  0:000  - [01]: random
+0:587  0:000  - [01]: embedded
+0:587  0:000  === [ Found config plists ] =====================
+0:587  0:000  - config.plist
+0:588  0:000  === [ GetEarlyUserSettings ] ====================
+0:588  0:000  timeout set to 3
+0:588  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:593  0:004  KextsToPatch: 3 requested
+0:597  0:004   - [00]: com.apple.iokit.IOUSBHostFamily (USB port limit patch #1 10.15.x by pmheart, daliansky and ydeng) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:619  0:021   - [01]: com.apple.driver.usb.AppleUSBXHCI (USB port limit patch #2 10.15.x by pmheart, daliansky and ydeng) :: MatchOS: 10.15.x :: BinPatch :: data len: 4
+0:640  0:021   - [02]: com.apple.iokit.IOAHCIBlockStorage (Enable TRIM for SSD) :: BinPatch :: data len: 11
+0:657  0:017   - patch disabled at config
+0:662  0:004  Default theme: tonymacx86
+0:667  0:004  Hiding entries with string Windows
+0:671  0:004  Hiding entries with string BOOTX64.EFI
+0:675  0:004  Hiding entries with string Preboot
+0:679  0:004  Hiding entries with string VM
+0:684  0:004  Hiding entries with string Recovery
+0:688  0:004  === [ LoadDrivers ] =============================
+0:692  0:004  Loading VBoxHfs.efi  status=Success
+0:706  0:014   - driver needs connecting
+0:710  0:004  Loading ApfsDriverLoader.efi  status=Success
+0:724  0:013   - driver needs connecting
+0:728  0:004  Loading AptioMemoryFix.efi  status=Success
+0:742  0:013  2 drivers needs connecting ...
+0:750  0:008  PlatformDriverOverrideProtocol->GetDriver overriden
+0:754  0:004  APFS driver loaded
+0:758  0:004  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:926  0:167  === [ InitScreen ] ==============================
+0:930  0:004  Console modes reported: 6, available modes:
+0:934  0:004   - [01]: 80x25
+0:938  0:004   - [02]: 80x50
+0:942  0:004   - [03]: 100x31
+0:947  0:004   - [04]: 127x33 (current mode)
+0:951  0:004   - [05]: 100x60
+0:955  0:004   - [06]: 120x50
+0:959  0:003  SetScreenResolution: 1920x1080 - setting Mode 5
+1:199  0:239  Video mode change to mode #5: Success
+1:203  0:004  SetScreenResolution: 1920x1080 - already set
+1:215  0:012  reinit: self device path=PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)
+1:223  0:007  new SelfHandle=38A38F98
+1:229  0:006  Using embedded font: Success
+1:234  0:005  === [ GetMacAddress ] ===========================
+1:238  0:004  MAC address of LAN #0= B4:2E:99:D1:C6:9F:
+1:273  0:034  === [ ScanSPD ] =================================
+1:277  0:004  Scanning SMBus [8086:A323], mmio: 0x5533C004, ioport: 0xEFA0, hostc: 0x11
+1:300  0:023  Slot: 0 Type 26 16384MB 2132MHz Vendor=Corsair PartNo=CMW64GX4M4C3200C16 SerialNo=0000000000000000
+1:323  0:022  Slot: 1 Type 26 16384MB 2132MHz Vendor=Corsair PartNo=CMW64GX4M4C3200C16 SerialNo=0000000000000000
+1:346  0:023  Slot: 2 Type 26 16384MB 2132MHz Vendor=Corsair PartNo=CMW64GX4M4C3200C16 SerialNo=0000000000000000
+1:370  0:023  Slot: 3 Type 26 16384MB 2132MHz Vendor=Corsair PartNo=CMW64GX4M4C3200C16 SerialNo=0000000000000000
+1:375  0:004  === [ GetAcpiTablesList ] =======================
+1:379  0:004  Get Acpi Tables List from RSDT:
+1:388  0:009   - [00]: FACP  A M I len=132
+1:392  0:004   - [01]: APIC  A M I len=300
+1:396  0:004   - [02]: FPDT  A M I len=68
+1:401  0:004   - [03]: FIDT  A M I len=156
+1:405  0:004   - [04]: MCFG  A M I len=60
+1:409  0:004   - [05]: SSDT  A M I len=516
+1:414  0:004   - [06]: SSDT  A M I len=6101
+1:418  0:004   - [07]: SSDT  A M I len=41826
+1:422  0:004   - [08]: SSDT  A M I len=12743
+1:426  0:004   - [09]: SSDT  A M I len=9048
+1:431  0:004   - [10]: HPET  A M I len=56
+1:435  0:004   - [11]: SSDT  A M I len=3998
+1:439  0:004   - [12]: SSDT  A M I len=11547
+1:444  0:004   - [13]: UEFI  A M I len=66
+1:448  0:004   - [14]: LPIT  A M I len=92
+1:453  0:004   - [15]: SSDT  A M I len=10206
+1:457  0:004   - [16]: SSDT  A M I len=4094
+1:461  0:004   - [17]: DBGP  A M I len=52
+1:465  0:004   - [18]: DBG2  A M I len=84
+1:470  0:004   - [19]: DMAR  A M I len=112
+1:474  0:004   - [20]: BGRT  A M I len=56
+1:478  0:004   - [21]: WSMT  A M I len=40
+1:482  0:004  Calibrated TSC Frequency = 3600566620 = 3600MHz
+1:487  0:004  === [ GetUserSettings ] =========================
+1:491  0:004  Add 1 devices (kTagTypeDict):
+1:496  0:004  USB FixOwnership: yes
+1:501  0:004  Dropping 2 tables:
+1:505  0:004   - [00]: Drop table  signature="MATS" (5354414D)
+1:538  0:033           - set table: 5354414D,                0 to drop: no
+1:547  0:008   - [01]: Drop table  signature="DMAR" (52414D44)
+1:581  0:034           - set table: 52414D44,                0 to drop: yes
+1:590  0:008   - final DSDT Fix mask=0006005C
+1:594  0:004  PatchesDSDT: 3 requested
+1:599  0:004   - [00]: (change SAT0 to SATA) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:619  0:020   - [01]: (change HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+1:644  0:024   - [02]: (Coffee Lake Read-Only RTC Fix) lenToFind: 8, lenToReplace: 8, Target Bridge: <null string>
+1:665  0:021  Using ProductName from config: iMac19,1
+1:669  0:004  BiosVersion: not set, Using BiosVersion from clover
+1:674  0:004  BiosVersion: IM191.88Z.F000.B00.2002172336
+1:678  0:004  BiosReleaseDate: 02/17/2020
+1:682  0:004  Using EfiVersion from clover: 1037.100.345.0.0
+1:687  0:004  Using FirmwareFeatures from clover: 0xFD8FF576
+1:692  0:004  Using FirmwareFeaturesMask from clover: 0xFFDFFF7F
+1:696  0:004  Using PlatformFeature from clover: 0x22
+1:700  0:004  === [ Found DSDT tables ] =======================
+2:023  0:323  === [ ScanVolumes ] =============================
+2:028  0:004  Found 18 volumes with blockIO
+2:032  0:004  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)
+2:041  0:008  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(1,GPT,D27C1B45-4D5C-4F3F-9555-3F548D392FA5,0x28,0x64000)
+2:050  0:009          Result of bootcode detection: bootable unknown (legacy)
+2:061  0:010  - [02]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x9,0x0)\HD(2,GPT,4054DE03-D488-4C2B-82D7-A0CA8044573A,0x64028,0x3BD3FB0)
+2:072  0:010  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)
+2:083  0:011  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)
+2:093  0:010  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(1,GPT,3653C029-0AA5-44E2-9E27-4DFA9A61AE94,0x800,0x8000)
+2:103  0:009  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(2,GPT,F4A8DD38-4D3E-4D64-8347-443511D41F3F,0x8800,0x3A34B800)
+2:112  0:009          Result of bootcode detection: bootable Windows (vista,win)
+2:117  0:004  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0xFFFF,0x0)\HD(3,GPT,71302B33-584D-4C4E-B3AD-CB3D511C5F94,0x3A354000,0x32000)
+2:126  0:009          Result of bootcode detection: bootable Windows (vista,win)
+2:132  0:005  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(1,GPT,11044AA9-26EE-4DF1-8C7B-9BC41C562EA4,0x28,0x64000)
+2:141  0:009          Result of bootcode detection: bootable unknown (legacy)
+2:146  0:005  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x4,0xFFFF,0x0)\HD(2,GPT,5C84BCC8-5F6B-40A8-A445-BACA1AB7E34E,0x64028,0x1D161920)
+2:156  0:009          Result of bootcode detection: bootable unknown (legacy)
+2:160  0:004  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)
+2:169  0:008          hiding this volume
+2:173  0:004  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(1,GPT,E7834623-4932-4612-9DD6-9E0C1BA87394,0x28,0x64000)
+2:182  0:008          Result of bootcode detection: bootable unknown (legacy)
+2:186  0:004          hiding this volume
+2:190  0:004          This is SelfVolume !!
+2:194  0:004  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)
+2:203  0:008          Result of bootcode detection: bootable unknown (legacy)
+2:207  0:003          hiding this volume
+2:211  0:003  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,64FA60D1DC414142B7C97ABC369FB108)
+2:219  0:007          hiding this volume
+2:223  0:004  - [14]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,38C7E86DA0CF9147B40BD0015E215B54)
+2:235  0:012          hiding this volume
+2:240  0:004  - [15]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,68354E6988F7464FBF32F9D080A00577)
+2:248  0:008          hiding this volume
+2:252  0:003  - [16]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,643C550371F7ED438826E53D329691EC)
+2:261  0:008          hiding this volume
+2:265  0:004  - [17]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,D5-DD-50-01-52-38-25-00)\HD(2,GPT,CB52C033-D8AC-4255-B831-A231075DD867,0x64028,0x3B97D260)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,8231C3315FC456438A7E788D1C7CA837)
+2:274  0:008          hiding this volume
+2:278  0:004  No AudioIoProtocols, status=Not Found
+2:282  0:004  === [ InitTheme ] ===============================
+2:287  0:004  use daylight theme
+2:294  0:006  Using theme 'tonymacx86' (EFI\CLOVER\themes\tonymacx86)
+2:298  0:004  file sound read: sound.wav Not Found
+2:303  0:004  Loading font from ThemeDir: Error
+2:309  0:006  theme inited
+2:313  0:004  Chosen theme tonymacx86
+2:318  0:004  after NVRAM boot-args=-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 alcid=16
+2:322  0:004  Scanning legacy ...
+2:330  0:008  === [ Dump SMC keys from NVRAM ] ================
+2:335  0:004  no AppleSMC protocol
+2:351  0:016  === [ ScanLoader ] ==============================
+2:355  0:004  - [01]: 'EFI'
+2:390  0:034          AddLoaderEntry for Volume Name=EFI
+2:394  0:004          skipped because entry is hidden
+2:398  0:004  - [02]: 'Install macOS Catalina'
+2:409  0:010          AddLoaderEntry for Volume Name=Install macOS Catalina
+2:441  0:032  - [06]: ''
+2:472  0:030  - [07]: 'EFI'
+2:491  0:019          AddLoaderEntry for Volume Name=EFI
+2:543  0:051          AddLoaderEntry for Volume Name=EFI
+2:547  0:004          skipped because entry is hidden
+2:551  0:004  - [08]: 'EFI'
+2:575  0:023          AddLoaderEntry for Volume Name=EFI
+2:626  0:051          AddLoaderEntry for Volume Name=EFI
+2:630  0:004          skipped because entry is hidden
+2:634  0:004  - [11]: 'EFI', hidden
+2:643  0:008  - [13]: 'Preboot', hidden
+2:652  0:008  - [14]: 'Macintosh HD - Data', hidden
+2:660  0:008  - [15]: 'Recovery', hidden
+2:669  0:008  - [16]: 'VM', hidden
+2:677  0:008  - [17]: 'Macintosh HD', hidden
+2:686  0:008  === [ AddCustomTool ] ===========================
+2:690  0:004  found tool \EFI\CLOVER\tools\Shell64U.efi
+2:694  0:004  Checking EFI partition Volume 1 for Clover
+2:702  0:007   Found Clover
+2:709  0:006  === [ GetEfiBootDeviceFromNvram ] ===============
+2:714  0:004  Default boot entry not found
+2:718  0:004  DefaultIndex=-1 and MainMenu.Entries.size()=11
+2:923  0:204  GUI ready
+8:893  5:970  exit from MainMenu 1
