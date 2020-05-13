@@ -173,7 +173,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 alcid=16 -wegnoegpu</string>
+		<string>-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 alcid=16</string>
 		<key>Debug</key>
 		<true/>
 		<key>DefaultVolume</key>
@@ -195,20 +195,6 @@
 			<integer>1</integer>
 			<key>ResetHDA</key>
 			<true/>
-		</dict>
-		<key>Properties</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>BwCbPg==</data>
-				<key>device-id</key>
-				<data>kj4AAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
-			</dict>
 		</dict>
 		<key>USB</key>
 		<dict>
