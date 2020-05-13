@@ -136,6 +136,16 @@
 					<key>Replace</key>
 					<data>oAqRCv8L//8=</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>R0ZYMA==</data>
+					<key>Replace</key>
+					<data>SUdQVQ==</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
