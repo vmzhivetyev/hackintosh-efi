@@ -173,7 +173,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 alcid=16 -disablegfxfirmware</string>
+		<string>-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 alcid=16</string>
 		<key>Debug</key>
 		<true/>
 		<key>DefaultVolume</key>
@@ -228,27 +228,6 @@
 			<integer>1</integer>
 			<key>ResetHDA</key>
 			<true/>
-		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>IntelGFX</key>
-			<string>0x3E928086</string>
-		</dict>
-		<key>Properties</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>BwCSPg==</data>
-				<key>device-id</key>
-				<data>kj4AAA==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
-			</dict>
 		</dict>
 		<key>USB</key>
 		<dict>
