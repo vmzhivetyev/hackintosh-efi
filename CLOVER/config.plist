@@ -124,12 +124,12 @@
 			<dict>
 				<key>USB</key>
 				<true/>
-				<key>HDMI</key>
-				<true/>
-				<key>ATI</key>
-				<true/>
 				<key>SmBUS</key>
 				<false/>
+				<key>ATI</key>
+				<true/>
+				<key>HDMI</key>
+				<true/>
 				<key>LAN</key>
 				<true/>
 				<key>IntelGFX</key>
@@ -190,7 +190,7 @@
 	<key>GUI</key>
 	<dict>
 		<key>Theme</key>
-		<string>random</string>
+		<string>tonymacx86</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Speed</key>
@@ -215,7 +215,7 @@
 			<string>First</string>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1920x1080</string>
+		<string>2560x1440</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
