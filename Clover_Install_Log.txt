@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Sun Oct 11 22:13:38 MSK 2020
-Installer version: r5123 (commit: 53b163c57) EFI bootloader
+Clover EFI installer log - Sun Oct 11 22:48:13 MSK 2020
+Installer version: r5122 (commit: f4e10b1a2) EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -12,7 +12,7 @@ Installer version: r5123 (commit: 53b163c57) EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +250.7 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume Macintosh HD            173.6 GB   disk1s1
+   1:                APFS Volume Macintosh HD            176.0 GB   disk1s1
    2:                APFS Volume Preboot                 47.3 MB    disk1s2
    3:                APFS Volume Recovery                522.7 MB   disk1s3
    4:                APFS Volume VM                      4.3 GB     disk1s4
@@ -26,7 +26,7 @@ Installer version: r5123 (commit: 53b163c57) EFI bootloader
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Install macOS Catalina/EFIROOTDIR/EFI folder to /Volumes/Install macOS Catalina/EFI-Backups/r5107/2020-10-11-22h13/EFI
+Backing up /Volumes/Install macOS Catalina/EFIROOTDIR/EFI folder to /Volumes/Install macOS Catalina/EFI-Backups/r5121/2020-10-11-22h48/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
