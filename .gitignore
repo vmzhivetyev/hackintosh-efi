@@ -2,3 +2,4 @@ CLOVER/._config.plist
 CLOVER/misc/debug.log
 CLOVER/._config-nvidia.plist
 ._.gitignore
+._*
