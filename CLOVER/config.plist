@@ -181,7 +181,7 @@
 		<key>Debug</key>
 		<true/>
 		<key>Arguments</key>
-		<string>-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 -alcdbg -liludbg -lilubeta alcid=28</string>
+		<string>-v debug=0x100 keepsyms=1 dart=0 slide=0 darkwake=8 shikigva=32 -alcdbg -liludbg -lilubeta alcid=16</string>
 		<key>XMPDetection</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -319,7 +319,7 @@
 			<key>ResetHDA</key>
 			<false/>
 			<key>Inject</key>
-			<string>NO</string>
+			<string>No</string>
 		</dict>
 		<key>USB</key>
 		<dict>
