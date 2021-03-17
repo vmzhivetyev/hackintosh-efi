@@ -845,7 +845,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>{{CHANGE ME}}</string>
+			<string>C02947306CDLNV9A8</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -861,9 +861,9 @@
 			<key>SystemProductName</key>
 			<string>iMac19,1</string>
 			<key>SystemSerialNumber</key>
-			<string>{{CHANGE ME}}</string>
+			<string>C02ZQMZ8JV3Q</string>
 			<key>SystemUUID</key>
-			<string>{{CHANGE ME}}</string>
+			<string>909D9A31-EACC-4C2A-A304-0CBC1F1CCA7C</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
