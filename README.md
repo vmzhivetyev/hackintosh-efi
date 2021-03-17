@@ -13,3 +13,15 @@ EFI Folder for my Hackintosh build
 - Integrated graphics is working including hardware acceleration
 - Shutdown and reboot are working
 - Sleep is not working, tho I have not tried to make it work
+
+# Links
+
+https://github.com/cmer/gigabyte-z390-aorus-master-hackintosh
+
+https://dortania.github.io/OpenCore-Install-Guide/extras/spoof.html
+
+https://dortania.github.io/GPU-Buyers-Guide/misc/common-issues.html
+
+https://dortania.github.io/GPU-Buyers-Guide/misc/bootflag.html#nvidia-boot-arguments
+
+https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id
