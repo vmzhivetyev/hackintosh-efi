@@ -775,7 +775,7 @@
 				<key>boot-args</key>
 				<string>keepsyms=1 debug=0x100 alcid=16 shikigva=32 -v -wegnoegpu igfxonln=1</string>
 				<key>csr-active-config</key>
-				<data>5wMAAA==</data>
+				<data>AwAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
@@ -796,6 +796,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
 				<string>boot-args</string>
+				<string>csr-active-config</string>
 			</array>
 		</dict>
 		<key>LegacyEnable</key>
