@@ -3,3 +3,4 @@ CLOVER/misc/debug.log
 CLOVER/._config-nvidia.plist
 ._.gitignore
 .DS_Store
+._*
