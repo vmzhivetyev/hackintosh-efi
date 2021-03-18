@@ -858,7 +858,7 @@
 				<key>boot-args</key>
 				<string>keepsyms=1 debug=0x100 alcid=16 shikigva=32 -v -wegnoegpu igfxonln=1</string>
 				<key>csr-active-config</key>
-				<data>AwAAAA==</data>
+				<data>/wcAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
