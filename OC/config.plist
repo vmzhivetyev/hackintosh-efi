@@ -230,6 +230,17 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>layout-id</key>
+				<data>EAAAAA==</data>
+				<key>model</key>
+				<string>Cannon Lake PCH cAVS</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>framebuffer-con1-pipe</key>
@@ -838,7 +849,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 alcid=7 shikigva=32 -v -wegnoegpu igfxonln=1 -alcdbg -liludbg</string>
+				<string>keepsyms=1 debug=0x100 shikigva=32 -v -wegnoegpu igfxonln=1 -alcdbg -liludbg</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
